@@ -5,11 +5,11 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import br.com.devmobile.imcfacil.databinding.ActivityCalculoImcactivityBinding
+import br.com.devmobile.imcfacil.databinding.ActivityResultadoImcactivityBinding
 
-class CalculoIMCActivity : AppCompatActivity() {
+class ResultadoIMCActivity : AppCompatActivity() {
 
-    private val binding by lazy{ ActivityCalculoImcactivityBinding.inflate(layoutInflater) }
+    private val binding by lazy{ ActivityResultadoImcactivityBinding.inflate(layoutInflater) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,6 +21,7 @@ class CalculoIMCActivity : AppCompatActivity() {
             insets
         }
 
-    }
 
+
+    }
 }

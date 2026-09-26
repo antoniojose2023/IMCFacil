@@ -1,6 +1,9 @@
 package br.com.devmobile.imcfacil
 
+import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -28,8 +31,10 @@ class SplashScreenActivity : AppCompatActivity() {
 
 
     fun carregaTelaInicial(){
-
-
+        Handler(Looper.getMainLooper()).postDelayed({
+            startActivity(Intent(this, CalculoIMCActivity::class.java))
+            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_in)
+        }, 2000)
 
     }
 }

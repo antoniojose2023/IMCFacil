@@ -10,7 +10,7 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="0dp"
-        android:layout_height="150dp"
+        android:layout_height="180dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="65dp"
+        android:layout_marginTop="80dp"
         android:text="Cáculo IMC"
         android:textColor="@color/white"
         android:textSize="20sp"
@@ -75,7 +75,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtAltura"
         android:layout_width="0dp"
-        android:hint="Altura em cm - Ex: 180"
+        android:hint="Altura em m - Ex: 1.80"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"

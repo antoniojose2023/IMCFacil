@@ -17,7 +17,7 @@
 
 | Splash | Cálculo | Resultado |
 | :---: | :---: | :---: |
-| <img src="docs/screenshots/splash.png" width="240" alt="Tela de abertura do IMC Fácil"> | <img src="docs/screenshots/calculo.png" width="240" alt="Tela de entrada de peso e altura"> | <img src="docs/screenshots/resultado.png" width="240" alt="Tela com o resultado do IMC"> |
+| <img width="1080" height="2424" alt="Image" src="https://github.com/user-attachments/assets/26fa050b-8f4b-4854-bd14-3dd9cb0eb580" />| <img width="1080" height="2424" alt="Image" src="https://github.com/user-attachments/assets/5a22087f-eefe-4c8c-b3fc-6727de4027a3" /> | <img width="1080" height="2424" alt="Image" src="https://github.com/user-attachments/assets/142e1b53-aecf-457f-a004-78f46805c2d9" /> |
 
 ---
 

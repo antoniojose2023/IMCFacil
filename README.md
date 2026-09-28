@@ -133,12 +133,6 @@ O APK será gerado em `app/build/outputs/apk/debug/`.
 ---
 
 ## 🗺️ Roadmap
-
-- [ ] Validação de entradas inválidas (campos vazios, valores zero ou negativos)
-- [ ] Aceitar vírgula como separador decimal (ex.: `1,80`)
-- [ ] Histórico opcional de cálculos (com consentimento do usuário)
-- [ ] Faixa de peso ideal para a altura informada
-- [ ] Modo escuro
 - [ ] Compartilhamento do resultado
 - [ ] Testes unitários para a lógica de cálculo e classificação
 
